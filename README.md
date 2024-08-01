@@ -77,10 +77,7 @@ Authorization: Bearer <your-token>
      ```
 
    - **SQLite3 driver for Go**
-  
-    ```sh
      go get github.com/mattn/go-sqlite3
-    ```
 
    - **bcrypt for password hashing**
      ```sh
