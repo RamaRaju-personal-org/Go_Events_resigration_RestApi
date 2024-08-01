@@ -6,7 +6,7 @@ A Go-powered "Event Booking" REST API that allows users to browse, create, updat
 
 ### Event Management
 
-``` text
+
 - **GET /events**
   - Retrieve a list of available events.
   - Authentication: Not required.
@@ -47,7 +47,7 @@ A Go-powered "Event Booking" REST API that allows users to browse, create, updat
   - Cancel a user's registration for an event.
   - Authentication: Required.
 
-```
+
 
 ## Authentication
 
@@ -79,7 +79,7 @@ Authorization: Bearer <your-token>
    - **SQLite3 driver for Go**
     ```sh
      go get github.com/mattn/go-sqlite3
-     ```
+    ```
 
    - **bcrypt for password hashing**
      ```sh
