@@ -64,39 +64,40 @@ Authorization: Bearer <your-token>
 ### :arrow_heading_down: Install Dependencies
 
 1. Clone the repository:
-   \`\`\`sh
+   
+   ```sh
    git clone https://github.com/your-username/event-booking-api.git
    cd event-booking-api
-   \`\`\`
+  ```
 
-2. Install required packages:
+1. Install required packages:
 
    - **Gin (HTTP web framework written in Go)**
-     \`\`\`sh
+     ```sh
      go get -u github.com/gin-gonic/gin
-     \`\`\`
+     ```
 
    - **SQLite3 driver for Go**
-     \`\`\`sh
+    ```sh
      go get github.com/mattn/go-sqlite3
-     \`\`\`
+     ```
 
    - **bcrypt for password hashing**
-     \`\`\`sh
+     ```sh
      go get -u golang.org/x/crypto
-     \`\`\`
+     ```
 
    - **JSON Web Tokens for Go**
-     \`\`\`sh
+     ```sh
      go get -u github.com/golang-jwt/jwt/v5
-     \`\`\`
+     ```
 
-3. Set up environment variables (e.g., database configuration, JWT secret).
+2. Set up environment variables (e.g., database configuration, JWT secret).
 
-4. Run the application:
-   \`\`\`sh
+3. Run the application:
+   ```sh
    go run main.go
-   \`\`\`
+   ```
 
 ### 📖 Additional Resources
 
@@ -107,18 +108,16 @@ Authorization: Bearer <your-token>
 
 ## Usage
 
-Once the API is running, you can interact with it using tools like \`curl\`, Postman, or any HTTP client.
+Once the API is running, you can interact with it using tools like curl, Postman, or any HTTP client.
 
 ### Example Requests
 
 - **Create an Event:**
-  \`\`\`sh
+  ```sh
   curl -X POST -H "Authorization: Bearer <your-token>" -d '{"name": "Event Name", "date": "2024-01-01", "location": "Event Location"}' http://localhost:8080/events
-  \`\`\`
+  ```
 
 - **Register for an Event:**
-  \`\`\`sh
+ ```sh
   curl -X POST -H "Authorization: Bearer <your-token>" http://localhost:8080/events/{id}/register
-  \`\`\`
-
-
+  ```
