@@ -55,24 +55,24 @@ A Go-powered "Event Booking" REST API that allows users to browse, create, updat
 The API uses JSON Web Tokens (JWT) for authentication. Users must include the token in the Authorization header of requests to protected endpoints.
 
 Example:
-\`\`\`
+```sh
 Authorization: Bearer <your-token>
-\`\`\`
+```
 
 ## 🚀 Setup and Installation
 
 ### :arrow_heading_down: Install Dependencies
 
-1. Clone the repository:
+#### Clone the repository:
    
    ```sh
    git clone https://github.com/your-username/event-booking-api.git
    cd event-booking-api
   ```
 
-1. Install required packages:
+#### Install required packages:
 
-   - **Gin (HTTP web framework written in Go)**
+  - **Gin (HTTP web framework written in Go)**
      ```sh
      go get -u github.com/gin-gonic/gin
      ```
@@ -92,9 +92,9 @@ Authorization: Bearer <your-token>
      go get -u github.com/golang-jwt/jwt/v5
      ```
 
-2. Set up environment variables (e.g., database configuration, JWT secret).
+Set up environment variables (e.g., database configuration, JWT secret).
 
-3. Run the application:
+#### Run the application:
    ```sh
    go run main.go
    ```
