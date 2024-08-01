@@ -4,8 +4,6 @@ A Go-powered "Event Booking" REST API that allows users to browse, create, updat
 
 ## API Endpoints
 ![alt text](./restapi.png)
-### Event Management
-
 
 - **GET /events**
   - Retrieve a list of available events.
