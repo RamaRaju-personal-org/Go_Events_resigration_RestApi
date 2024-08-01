@@ -1,7 +1,3 @@
-# Go_Events_resigration_RestApi
-This repo contains Golang RestApi code for Events registration, user creation, events deletion and updation
-
-
 # Event Booking REST API
 
 A Go-powered "Event Booking" REST API that allows users to browse, create, update, and delete events, as well as manage user registrations and authentication.
@@ -10,6 +6,7 @@ A Go-powered "Event Booking" REST API that allows users to browse, create, updat
 
 ### Event Management
 
+``` text
 - **GET /events**
   - Retrieve a list of available events.
   - Authentication: Not required.
@@ -49,6 +46,8 @@ A Go-powered "Event Booking" REST API that allows users to browse, create, updat
 - **DELETE /events/{id}/register**
   - Cancel a user's registration for an event.
   - Authentication: Required.
+
+```
 
 ## Authentication
 
